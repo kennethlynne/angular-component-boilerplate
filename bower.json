@@ -1,0 +1,29 @@
+{
+//    "name": "<NAME>",
+//    "version": "0.0.0",
+//    "homepage": "<GITHUB PAGE>",
+    "authors": [
+//        "<FULL NAME> <<EMAIL>>" //I.E Kenneth Lynne <kenneth.lynne@gmail.com>
+    ],
+//    "description": "<DESCRIPTION>",
+//    "main": "<MAIN JS FILE>",
+    "keywords": [
+//        "angularjs",
+//        "convention over configuration"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.2.0"
+    },
+    "devDependencies": {
+        "angular-mocks": "~1.2.0"
+    }
+}
+
