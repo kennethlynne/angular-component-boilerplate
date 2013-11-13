@@ -1,23 +1,10 @@
 {
-//    "name": "<NAME>",
-//    "version": "0.0.0",
-//    "homepage": "<GITHUB PAGE>",
-    "authors": [
-//        "<FULL NAME> <<EMAIL>>" //I.E Kenneth Lynne <kenneth.lynne@gmail.com>
-    ],
-//    "description": "<DESCRIPTION>",
-//    "main": "<MAIN JS FILE>",
-    "keywords": [
-//        "angularjs",
-//        "convention over configuration"
-    ],
+    "name": "directive-example",
     "license": "MIT",
     "ignore": [
         "**/.*",
         "node_modules",
-        "bower_components",
-        "test",
-        "tests"
+        "bower_components"
     ],
     "dependencies": {
         "angular": "~1.2.0"
