@@ -12,9 +12,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
         'bower_components/angular/angular.js',
-        'bower_components/angular-mocks/angular-mocks.js',
-        'angular-component-factory.min.js',
-        'angular-component-factory.test.js'
+        'bower_components/angular-mocks/angular-mocks.js'
     ],
 
     // list of files / patterns to exclude
