@@ -1,6 +1,4 @@
 {
-//    "name": "<NAME>",
-    "version": "0.0.0",
     "dependencies": {},
     "devDependencies": {
         "grunt": "~0.4.1",
@@ -18,9 +16,5 @@
     },
     "scripts": {
         "test": "grunt test"
-    }//,
-//    "repository": {
-//        "type": "git",
-//        "url": "<REPOSITORY>"
-//    }
+    }
 }

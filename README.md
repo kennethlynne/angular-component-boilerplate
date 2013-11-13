@@ -6,3 +6,10 @@ Boilerplate for creating reusable angular components that can be registered on b
 TODO:
 * How to get started
 * Examples
+
+HOW DO:
+
+When completed, type the following before publishing:
+
+* npm init
+* bower init
