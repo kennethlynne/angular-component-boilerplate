@@ -6,26 +6,30 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-karma');
 
     grunt.initConfig({
+        pkg: grunt.file.readJSON('bower.json'),
         karma: {
             unit: {
                 configFile: 'karma.conf.js',
-                singleRun: true
+                singleRun: true,
+                options: {
+                    files: ['<%= pkg.name %>.js', '<%= pkg.name %>.test.js']
+                }
             }
         },
         ngmin: {
             dist: {
                 files: [{
                     cwd: './',
-                    src: 'angular-component-factory.js',
-                    dest: 'angular-component-factory.min.js'
+                    src: '<%= pkg.name %>.js',
+                    dest: '<%= pkg.name %>.min.js'
                 }]
             }
         },
         uglify: {
             dist: {
                 files: {
-                    'angular-component-factory.min.js': [
-                        'angular-component-factory.min.js'
+                    '<%= pkg.name %>.min.js': [
+                        '<%= pkg.name %>.min.js'
                     ]
                 }
             }
