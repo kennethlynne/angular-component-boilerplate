@@ -5,4 +5,4 @@ angular.module('example-module').directive('directiveExample', function(){
         restrict: 'E'
     }
 
-})
+});

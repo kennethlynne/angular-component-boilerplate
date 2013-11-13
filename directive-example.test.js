@@ -15,7 +15,7 @@ describe('Directive: directive-example', function(){
     });
 
     it('Should render the directive', function(){
-       expect(element.text()).toBe('This is an example'));
+       expect(element.text()).toBe('This is an example');
     });
 
 });

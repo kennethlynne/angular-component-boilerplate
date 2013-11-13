@@ -3,13 +3,16 @@ angular-component-boilerplate
 
 Boilerplate for creating reusable angular components that can be registered on bower
 
-TODO:
-* How to get started
-* Examples
+Fork and clone this repository.
 
-HOW DO:
+Run ```npm install && bower init```. Fill out the name of your component (and opt in to use the existing dependancies in the new configuration).
+Name your js files exactly what you entered for name in ```bower init```:
+* name.js
+* name.test.js
 
-When completed, type the following before publishing:
+Run ```karma start``` to run tests.
+Implement!
 
-* npm init
-* bower init
+Configure your bower.json file.
+
+```bower publish```
