@@ -1,4 +1,4 @@
-angular-component-boilerplate
+angular-component-boilerplate [![Build Status](https://travis-ci.org/kennethlynne/angular-component-boilerplate.png?branch=master)](https://travis-ci.org/kennethlynne/angular-component-boilerplate)
 =============================
 
 Boilerplate for creating reusable angular components that can be registered on bower
