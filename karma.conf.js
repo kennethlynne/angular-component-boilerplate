@@ -13,8 +13,8 @@ module.exports = function(config) {
     files: [
         'bower_components/angular/angular.js',
         'bower_components/angular-mocks/angular-mocks.js',
-        'directive-example.js',
-        'directive-example.test.js'
+        '*.min.js',
+        '*.test.js'
     ],
 
     // list of files / patterns to exclude
