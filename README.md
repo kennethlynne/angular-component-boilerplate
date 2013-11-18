@@ -19,7 +19,8 @@ Configure your bower.json file.
 
 To register a new package:
 
-* There **must** be a valid manifest JSON in the current working directory.
+* Build: ```grunt build``` to create a minified version
+* There **must** be a valid manifest JSON in the current working directory. 
 * Your package should use [semver](http://semver.org/) Git tags.
 * Your package **must** be available at a Git endpoint (e.g., GitHub); remember
   to push your Git tags (```git tag -a v0.0.0 -m "Version 0.0.0"``` + ```git push --tags```)!
