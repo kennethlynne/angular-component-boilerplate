@@ -7,8 +7,8 @@ Fork and clone this repository.
 
 Run ```npm install && bower init```. Replace the name in bower.json with your own name.
 Create:
-* <name>.js
-* <name>.test.js
+* name.js
+* name.test.js
 
 You may use the existing example files as a starting point.
 
