@@ -12,7 +12,12 @@ module.exports = function (grunt) {
                 configFile: 'karma.conf.js',
                 singleRun: true,
                 options: {
-                    files: ['<%= pkg.name %>.js', '<%= pkg.name %>.test.js']
+                    files: [
+                        'bower_components/angular/angular.js',
+                        'bower_components/angular-mocks/angular-mocks.js',
+                        '<%= pkg.name %>.js',
+                        '<%= pkg.name %>.test.js'
+                    ]
                 }
             }
         },

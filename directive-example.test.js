@@ -11,7 +11,7 @@ describe('Directive: directive-example', function(){
         });
 
         element = angular.element('<directive-example/>');
-        element = $compile(element)($rootscope);
+        element = $compile(element)($rootScope);
     });
 
     it('Should render the directive', function(){
