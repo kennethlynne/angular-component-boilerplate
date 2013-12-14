@@ -15,7 +15,7 @@ module.exports = function (grunt) {
                     files: [
                         'bower_components/angular/angular.js',
                         'bower_components/angular-mocks/angular-mocks.js',
-                        '<%= pkg.name %>.js',
+                        '<%= pkg.name %>.min.js',
                         '<%= pkg.name %>.test.js'
                     ]
                 }
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     cwd: './',
-                    src: '<%= pkg.name %>.js',
+                    src: '<%= pkg.name %>.src.js',
                     dest: '<%= pkg.name %>.min.js'
                 }]
             }
