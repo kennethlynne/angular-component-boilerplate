@@ -1,35 +1,13 @@
 angular-component-boilerplate [![Build Status](https://travis-ci.org/kennethlynne/angular-component-boilerplate.png?branch=master)](https://travis-ci.org/kennethlynne/angular-component-boilerplate)
 =============================
 
-Boilerplate for creating reusable angular components that can be registered on bower
-
-Fork and clone this repository.
-
-Run ```npm install && bower init```. Replace the name in bower.json with your own name.
-Create:
-* name.js
-* name.test.js
-
-You may use the existing example files as a starting point.
-
-Run ```karma start``` to run tests.
-
-Implement your awesome component!
-
-Configure your bower.json file.
-
-### Registering packages on bower
-
-To register a new package:
-
-* Build: ```grunt build``` to create a minified version
-* There **must** be a valid manifest JSON in the current working directory. 
-* Your package should use [semver](http://semver.org/) Git tags.
-* Your package **must** be available at a Git endpoint (e.g., GitHub); remember
-  to push your Git tags (```git tag -a v0.0.0 -m "Version 0.0.0"``` + ```git push --tags```)!
-
-Then use the following command:
-
-```
-bower register <my-package-name> <git-endpoint>
-```
+Boilerplate for creating reusable angular components that can be registered on bower.
+* Fork and clone this repository.
+* Remove examples (`rm directive-example.*`)
+* Run `npm install && bower init` - initialize a bower config with your given package `name`
+* Create `<name>.src.js` and `<name>.test.js`
+* `karma start` Run tests
+* Implement your *awesomesauce*
+* `grunt build` to minify code. Resulting in `<name>.min.js`
+* To release a new version: `grunt bump` to automatically bump version in bower and package json files, create git tag, commit and push using grunt-bump. Read the [grunt-bump documentation](https://github.com/vojtajina/grunt-bump)
+* If not already registered: `bower register <my-package-name> <git-endpoint>`. Read the [bower documentation(https://github.com/bower/bower#registering-packages).
