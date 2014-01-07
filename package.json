@@ -12,7 +12,11 @@
     "karma-phantomjs-launcher": "~0.1.0",
     "karma": "~0.10.2",
     "bower": "~1.2.7",
-    "grunt-bump": "0.0.13"
+    "grunt-bump": "0.0.13",
+    "inquirer": "~0.4.0",
+    "gulp-template": "~0.1.0",
+    "gulp": "~3.2.4",
+    "q": "~1.0.0"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -20,7 +24,7 @@
   "scripts": {
     "test": "grunt test"
   },
-  "name": "angular-bower-component-generator",
+  "name": "angular-bower-component",
   "description": "",
   "main": "index.js",
   "repository": {
