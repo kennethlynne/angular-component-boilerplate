@@ -16,8 +16,8 @@ module.exports = function (grunt) {
                     files: [
                         'bower_components/angular/angular.js',
                         'bower_components/angular-mocks/angular-mocks.js',
-                        '{{name}}.min.js',
-                        '{{name}}.test.js'
+                        '{{componentName}}.min.js',
+                        '{{componentName}}.test.js'
                     ]
                 }
             }
@@ -26,8 +26,8 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     cwd: './',
-                    src: '{{name}}.src.js',
-                    dest: '{{name}}.min.js'
+                    src: '{{componentName}}.src.js',
+                    dest: '{{componentName}}.min.js'
                 }]
             }
         },
@@ -45,8 +45,8 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    '{{name}}.min.js': [
-                        '{{name}}.min.js'
+                    '{{componentName}}.min.js': [
+                        '{{componentName}}.min.js'
                     ]
                 }
             }

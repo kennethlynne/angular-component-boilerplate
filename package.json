@@ -1,22 +1,12 @@
 {
   "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-ngmin": "~0.0.2",
-    "grunt-karma": "~0.6.2",
-    "karma-script-launcher": "~0.1.0",
-    "karma-requirejs": "~0.1.0",
-    "karma-jasmine": "~0.1.3",
-    "karma-phantomjs-launcher": "~0.1.0",
-    "karma": "~0.10.2",
-    "bower": "~1.2.7",
+  "dependencies": {
     "grunt-bump": "0.0.13",
     "inquirer": "~0.4.0",
     "gulp-template": "~0.1.0",
     "gulp": "~3.2.4",
-    "q": "~1.0.0"
+    "q": "~1.0.0",
+    "gulp-rename": "~0.2.1"
   },
   "engines": {
     "node": ">=0.8.0"
@@ -24,12 +14,12 @@
   "scripts": {
     "test": "grunt test"
   },
-  "name": "angular-bower-component",
+  "name": "angular-bower-generator",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kennethlynne/angular-component-boilerplate.git"
+    "url": "https://github.com/kennethlynne/angular-bower-generator.git"
   },
   "keywords": [
     "generator",
@@ -40,6 +30,6 @@
   "author": "Kenneth Lynne <kenneth.lynne@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kennethlynne/angular-component-boilerplate/issues"
+    "url": "https://github.com/kennethlynne/angular-bower-generator/issues"
   }
 }

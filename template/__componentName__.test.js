@@ -1,16 +1,16 @@
-describe('Directive: directive-example', function(){
+describe('Directive: {{componentName}}', function(){
 
     var $rootScope, $compile, element;
 
     beforeEach(function(){
-        module('example-module');
+        module('{{moduleName}}');
 
         inject(function(_$rootScope_, _$compile_){
             $rootScope = _$rootScope_;
             $compile = _$compile_;
         });
 
-        element = angular.element('<directive-example/>');
+        element = angular.element('<{{componentName}}/>');
         element = $compile(element)($rootScope);
     });
 

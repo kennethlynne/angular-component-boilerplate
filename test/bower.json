@@ -1,7 +1,7 @@
 {
     "version": "0.0.0",
-    "name": "{{componentName}}",
-    "description": "{{description}}",
+    "name": "superComponent",
+    "description": "its awesome",
     "license": "MIT",
     "ignore": [
         "**/.*",

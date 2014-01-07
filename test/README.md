@@ -1,0 +1,4 @@
+superComponent
+=============================
+
+its awesome
