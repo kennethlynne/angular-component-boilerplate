@@ -19,23 +19,5 @@
   },
   "scripts": {
     "test": "grunt test"
-  },
-  "name": "angular-bower-component-generator",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kennethlynne/angular-component-boilerplate.git"
-  },
-  "keywords": [
-    "generator",
-    "angular",
-    "scaffold",
-    "bower"
-  ],
-  "author": "Kenneth Lynne <kenneth.lynne@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kennethlynne/angular-component-boilerplate/issues"
   }
 }
